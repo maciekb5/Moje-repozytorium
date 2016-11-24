@@ -5,9 +5,7 @@ float suma (float a, float b)
 {
       return a+b;
       }
-float roznica (float a, float b)
-{
-      return a-b;
+float r zmiana 9
       }
 
 float a; float b;
