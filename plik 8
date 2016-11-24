@@ -5,10 +5,7 @@ float suma (float a, float b)
 {
       return a+b;
       }
-float r zmiana 9
-      }
-
-float a; float b;
+float roat b;
 float iloczyn (float a, float b)
 {
       return a*b;
