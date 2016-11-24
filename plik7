@@ -1,6 +1,4 @@
-#include <cstdlib>
-#include <iostream>
-#include <math.h>
+ziama
 
 int n;
 double x;
