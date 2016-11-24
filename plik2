@@ -10,6 +10,8 @@ int rozklad_liczby(unsigned short rozklad[4], unsigned long liczba)
   int n;
   for(n=0;n<4;n++) rozklad[n]=0;    // czysci tablice
   if(0>liczba>999) return -1;       // sprawdza czy liczba jest prawidlowa
+  for(n=3;n>0;n--)n<4;n++) rozklad[n]=0;    // czysci tablice
+  if(0>liczba>999) return -1;       // sprawdza czy liczba jest prawidlowa
   for(n=3;n>0;n--) {
     if(liczba<20) {                 // jesli liczba(reszta)<20 jednostki=liczba
       rozklad[1]=liczba;
