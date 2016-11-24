@@ -7,7 +7,7 @@ int delta(int a, int b,int c)
 float e(int a,int  b)
 {return ((-b)/(2*a));}
 float pierwX1(int  a, int  b, int  delta)
-{return (-b+sqrt(delta))/(2*a);}
+{return (-b+sqrcommit 10 ostatnit(delta))/(2*a);}
 float pierwX2(int  a, int  b, int  delta)
 {return (-b-sqrt(delta))/(2*a);}
 int xliniowe(int c, int b)
