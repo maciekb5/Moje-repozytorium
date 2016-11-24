@@ -4,8 +4,7 @@
 using namespace std;
 
 
-float dopelnienie(float a11, float a22, float a12, float a21)                           //funkcja liczaca dopelnienia
-{                          
+float dopelcommit   
     return ( a11*a22 - a12*a21 );
     }
 
