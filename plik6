@@ -9,8 +9,7 @@ float e(int a,int  b)
 float pierwX1(int  a, int  b, int  delta)
 {return (-b+sqrt(delta))/(2*a);}
 float pierwX2(int  a, int  b, int  delta)
-{return (-b-sqrt(delta))/(2*a);}
-int xliniowe(int c, int b)
+{return (-b
 {return -c/b;}
 
 main ()
