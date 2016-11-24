@@ -19,6 +19,9 @@ int czytaj()
         if(n<0)printf("stopien wielomianu musi byc wiekszy od 0 \n");
         else if(n>M)printf("stopien wielomianu usi byc mniejszy od %d \n", M);
     }
+        printf("Dla wielomianu a :\n");
+        printf("podaj stopien wielomianu. \nn=");
+        scanf("%d:\n",&n);
     while (n<0||n>(M-1));
     printf("podaj wartosc X. \nX=");
     scanf("%lf", &x);
