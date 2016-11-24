@@ -1,15 +1,11 @@
-#include<iostream>
-#include<math.h>
-using namespace std;
-
-float odA[3][3], dop[3][3], A[3][3]={1,2,3,2,1,4,2,1,5};
+#incop[3][3], A[3][3]={1,2,3,2,1,4,2,1,5};
 int i, j;                          
 
 main()
 {
 for(i=0;i<3;i++)                                            // dla kazdego wiersza i zostaja pzypisane liczyby kolumn j
 {for(j=0;j<3;j++)
-{A[i][j];
+{A[i][j];zmiana w pliku
 dop[i][j];}}                                                 //przypisanie liczb macierzy A.33 do A.ij i dop.33 do dop.ij
 
 cout<<"      m. A ";

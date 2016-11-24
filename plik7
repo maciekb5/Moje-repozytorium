@@ -11,8 +11,7 @@ int czytaj()
    
     do
     {
-        printf("Dla wielomianu a :\n");
-        printf("podaj stopien wielomianu. \nn=");
+       commit abcwielomianu. \nn=");
         scanf("%d:\n",&n);
         if(n<0)printf("stopien wielomianu musi byc wiekszy od 0 \n");
         else if(n>M)printf("stopien wielomianu usi byc mniejszy od %d \n", M);
