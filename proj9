@@ -9,7 +9,7 @@ main()
 {
 for(i=0;i<3;i++)                                            // dla kazdego wiersza i zostaja pzypisane liczyby kolumn j
 {for(j=0;j<3;j++)
-{A[i][j];
+{A[i][j];zmiana w pliku
 dop[i][j];}}                                                 //przypisanie liczb macierzy A.33 do A.ij i dop.33 do dop.ij
 
 cout<<"      m. A ";
